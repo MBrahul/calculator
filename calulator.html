@@ -1,0 +1,71 @@
+<!-- CODE BY VISHVJEET PRAJAPATI -->
+     <!-- MY FIRST WEBSITE -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <h1>calculator</h1>
+    </header>
+    <main>
+        
+               <div class="container" id="con1" >
+                <!-- Enter Expression -->
+               </div>
+               <div class="container" id="con2" >
+               <!-- Result -->
+               </div>
+               <div class="buttons">
+        
+        <div class="line1">
+            <input type="button" class ="button" id='buttonac' value="AC">
+            <input type="button" class ="button" id='buttone1'onclick="reversesign()" value="+/-">
+            <input type="button" class ="button" id='buttone2' onclick="buttonPressed(this.id)" value="/100">
+            <input type="button" class ="button" id='buttond' onclick="operatorPressed(this.id)"value="/">
+        </div>
+        <div class="line2">
+            <input type="button" class ="button" id='button7' onclick="buttonPressed(this.id)" value="7">
+            <input type="button" class ="button" id='button8' onclick="buttonPressed(this.id)" value="8">
+            <input type="button" class ="button" id='buttone9' onclick="buttonPressed(this.id)" value="9">
+            <input type="button" class ="button" id='buttonm' onclick="operatorPressed(this.id)"value="*">
+        </div>
+        <div class="line3">
+            <input type="button" class ="button" id='button4' onclick="buttonPressed(this.id)"value="4">
+            <input type="button" class ="button" id='button5'onclick="buttonPressed(this.id)" value="5">
+            <input type="button" class ="button" id='buttone6'onclick="buttonPressed(this.id)" value="6">
+            <input type="button" class ="button" id='buttonminus' onclick="operatorPressed(this.id)"value="-">
+        </div>
+        <div class="line4">
+            <input type="button" class ="button" id='button1' onclick="buttonPressed(this.id)" value="1">
+            <input type="button" class ="button" id='button2' onclick="buttonPressed(this.id)"value="2">
+            <input type="button" class ="button" id='buttone3' onclick="buttonPressed(this.id)"value="3">
+            <input type="button" class ="button" id='buttona' onclick="operatorPressed(this.id)"value="+">
+        </div>
+        <div class="line5">
+            <input type="button" class ="button" id='button0' onclick="buttonPressed(this.id)" value="0">
+            <input type="button" class ="button" id='button.'onclick="buttonPressed(this.id)" value=".">
+            <input type="button" class ="button" id='buttone=' onclick="EqualButtonPressed()" value="=">
+          </div>
+        </div>
+    
+        
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>

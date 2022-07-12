@@ -1,0 +1,58 @@
+*{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    background-color: antiquewhite;
+    height:100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    height:fit-content;
+    width:fit-content;
+    background-color:white;
+    margin-top: 6vh;
+    border: 4px solid rgb(58, 31, 31);
+    border-radius: 20px;
+    animation: load 2s; 
+    position: relative;
+    left: 13.5vw;
+}
+.button{
+    background-color:rgb(58, 31, 31);
+    color: white;
+    
+    height:10vh;
+    width: 17vw;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#button0 {
+height: 10vh;
+width: 34.5vw;
+}
+.container{
+    height:70px;
+    width:100%;
+    background-color: white;
+    margin-top:0;
+    font-size: 30px;
+}
+#con2,#con1{
+    border: 2px solid black;
+    text-align: end;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+header{
+    font-size: large;
+}
+@keyframes load {
+from { opacity: 0; top: 45%}
+to   { opacity: 1; top: 50%}
+}
