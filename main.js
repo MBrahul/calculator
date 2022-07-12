@@ -35,3 +35,14 @@ function reversesign(){
     }
    
 }
+function remove(){
+    let x = con1.innerText;
+    const y = x.toString().split('').slice(0, -1).join('')
+    if(y==0){
+        con1.innerText=null
+    }
+    else{
+        con1.innerText = Number(y)
+    }
+   
+}
