@@ -23,7 +23,7 @@ function EqualButtonPressed(){
      con2.innerText=eval(con1.innerText);
     }
     catch(error){
-        alert('Exception accured')
+        alert('ERROR')
     }
 }
 function reversesign(){
