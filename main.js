@@ -35,7 +35,7 @@ function reversesign(){
     }
    
 }
-function remove(){
+function ankitcorrestion(){
     let x = con1.innerText;
     const y = x.toString().split('').slice(0, -1).join('')
     if(y==0){
