@@ -56,7 +56,7 @@ header{
 from { opacity: 0; top: 45%}
 to   { opacity: 1; top: 50%}
 }
-@media  screen and (min-width:810px) {
+@media  screen and (min-width:811px) {
 
     main {
         height:fit-content;
