@@ -36,13 +36,7 @@ function reversesign(){
    
 }
 function ankitcorrection(){
-    let x = con1.innerText;
-    const y = x.toString().split('').slice(0, -1).join('')
-    if(y==0){
-        con1.innerText=null
-    }
-    else{
-        con1.innerText = Number(y)
-    }
-   
+   let content = con1.innerText
+   content=String(content);
+   con1.innerText=content.substring(0,content.length-1);
 }
